@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8F013F19AA1164000644BE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F013E19AA1164000644BE /* Cocoa.framework */; };
+		EE8F014919AA1164000644BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE8F014719AA1164000644BE /* InfoPlist.strings */; };
+		EE8F014B19AA1164000644BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F014A19AA1164000644BE /* main.m */; };
+		EE8F014F19AA1164000644BE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EE8F014D19AA1164000644BE /* Credits.rtf */; };
+		EE8F015219AA1164000644BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F015119AA1164000644BE /* AppDelegate.m */; };
+		EE8F015519AA1165000644BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8F015319AA1165000644BE /* MainMenu.xib */; };
+		EE8F015D19AA120F000644BE /* QQPetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F015C19AA120F000644BE /* QQPetWindow.m */; };
+		EE8F016019AA1228000644BE /* QQPetView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F015F19AA1228000644BE /* QQPetView.m */; };
+		EE8F016519AA1EB9000644BE /* qqpet.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F016419AA1EB9000644BE /* qqpet.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE8F013A19AA1164000644BE /* QQPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F013E19AA1164000644BE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EE8F014119AA1164000644BE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EE8F014219AA1164000644BE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EE8F014319AA1164000644BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE8F014619AA1164000644BE /* QQPets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQPets-Info.plist"; sourceTree = "<group>"; };
+		EE8F014819AA1164000644BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE8F014A19AA1164000644BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE8F014C19AA1164000644BE /* QQPets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQPets-Prefix.pch"; sourceTree = "<group>"; };
+		EE8F014E19AA1164000644BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EE8F015019AA1164000644BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE8F015119AA1164000644BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE8F015419AA1165000644BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EE8F015B19AA120F000644BE /* QQPetWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPetWindow.h; sourceTree = "<group>"; };
+		EE8F015C19AA120F000644BE /* QQPetWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPetWindow.m; sourceTree = "<group>"; };
+		EE8F015E19AA1228000644BE /* QQPetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPetView.h; sourceTree = "<group>"; };
+		EE8F015F19AA1228000644BE /* QQPetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPetView.m; sourceTree = "<group>"; };
+		EE8F016419AA1EB9000644BE /* qqpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qqpet.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8F013719AA1164000644BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F013F19AA1164000644BE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8F012F19AA1164000644BE = {
+			isa = PBXGroup;
+			children = (
+				EE8F014419AA1164000644BE /* QQPets */,
+				EE8F013D19AA1164000644BE /* Frameworks */,
+				EE8F013B19AA1164000644BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8F013B19AA1164000644BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F013A19AA1164000644BE /* QQPets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8F013D19AA1164000644BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F013E19AA1164000644BE /* Cocoa.framework */,
+				EE8F014019AA1164000644BE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE8F014019AA1164000644BE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F014119AA1164000644BE /* AppKit.framework */,
+				EE8F014219AA1164000644BE /* CoreData.framework */,
+				EE8F014319AA1164000644BE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EE8F014419AA1164000644BE /* QQPets */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F016119AA1E9A000644BE /* res */,
+				EE8F015019AA1164000644BE /* AppDelegate.h */,
+				EE8F015119AA1164000644BE /* AppDelegate.m */,
+				EE8F015E19AA1228000644BE /* QQPetView.h */,
+				EE8F015F19AA1228000644BE /* QQPetView.m */,
+				EE8F015B19AA120F000644BE /* QQPetWindow.h */,
+				EE8F015C19AA120F000644BE /* QQPetWindow.m */,
+				EE8F015319AA1165000644BE /* MainMenu.xib */,
+				EE8F014519AA1164000644BE /* Supporting Files */,
+			);
+			path = QQPets;
+			sourceTree = "<group>";
+		};
+		EE8F014519AA1164000644BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F014619AA1164000644BE /* QQPets-Info.plist */,
+				EE8F014719AA1164000644BE /* InfoPlist.strings */,
+				EE8F014A19AA1164000644BE /* main.m */,
+				EE8F014C19AA1164000644BE /* QQPets-Prefix.pch */,
+				EE8F014D19AA1164000644BE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8F016119AA1E9A000644BE /* res */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F016419AA1EB9000644BE /* qqpet.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8F013919AA1164000644BE /* QQPets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F015819AA1165000644BE /* Build configuration list for PBXNativeTarget "QQPets" */;
+			buildPhases = (
+				EE8F013619AA1164000644BE /* Sources */,
+				EE8F013719AA1164000644BE /* Frameworks */,
+				EE8F013819AA1164000644BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQPets;
+			productName = QQPets;
+			productReference = EE8F013A19AA1164000644BE /* QQPets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8F013119AA1164000644BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Mac4app;
+			};
+			buildConfigurationList = EE8F013419AA1164000644BE /* Build configuration list for PBXProject "QQPets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE8F012F19AA1164000644BE;
+			productRefGroup = EE8F013B19AA1164000644BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8F013919AA1164000644BE /* QQPets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8F013819AA1164000644BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F014919AA1164000644BE /* InfoPlist.strings in Resources */,
+				EE8F014F19AA1164000644BE /* Credits.rtf in Resources */,
+				EE8F015519AA1165000644BE /* MainMenu.xib in Resources */,
+				EE8F016519AA1EB9000644BE /* qqpet.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8F013619AA1164000644BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F014B19AA1164000644BE /* main.m in Sources */,
+				EE8F015219AA1164000644BE /* AppDelegate.m in Sources */,
+				EE8F015D19AA120F000644BE /* QQPetWindow.m in Sources */,
+				EE8F016019AA1228000644BE /* QQPetView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE8F014719AA1164000644BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F014819AA1164000644BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE8F014D19AA1164000644BE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F014E19AA1164000644BE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EE8F015319AA1165000644BE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F015419AA1165000644BE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8F015619AA1165000644BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE8F015719AA1165000644BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE8F015919AA1165000644BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQPets/QQPets-Prefix.pch";
+				INFOPLIST_FILE = "QQPets/QQPets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE8F015A19AA1165000644BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQPets/QQPets-Prefix.pch";
+				INFOPLIST_FILE = "QQPets/QQPets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8F013419AA1164000644BE /* Build configuration list for PBXProject "QQPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F015619AA1165000644BE /* Debug */,
+				EE8F015719AA1165000644BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8F015819AA1165000644BE /* Build configuration list for PBXNativeTarget "QQPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F015919AA1165000644BE /* Debug */,
+				EE8F015A19AA1165000644BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8F013119AA1164000644BE /* Project object */;
+}
